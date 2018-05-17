@@ -1,6 +1,6 @@
 {
   "name": "exmg-react-form",
-  "version": "0.0.2-0",
+  "version": "0.0.2",
   "description": "React forms with ease",
   "main": "dist/exmg-react-form.common.js",
   "module": "dist/exmg-react-form.esm.js",
