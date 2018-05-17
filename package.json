@@ -1,0 +1,30 @@
+{
+  "name": "exmg-react-form",
+  "version": "0.0.1",
+  "description": "React forms with ease",
+  "main": "dist/exmg-react-form.common.js",
+  "module": "dist/exmg-react-form.esm.js",
+  "typings": "dist/index.d.ts",
+  "author": "Niek Saarberg <n.saarberg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "rollup": "^0.59.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.14.0",
+    "typescript": "^2.8.3"
+  },
+  "peerDependencies": {
+    "react": ">= 16.0",
+    "react-dom": ">= 16.0",
+    "react-lifecycles-compat": ">= 3.0"
+  }
+}
